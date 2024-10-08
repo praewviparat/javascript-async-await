@@ -33,3 +33,4 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+getJohnProfile().then((profile) => {console.log(profile)}).then(getJohnOrders).then((order) => {console.log(order)})

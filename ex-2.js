@@ -13,3 +13,4 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+getJohnProfile().then((data) => {console.log(profile)}).catch((error) => {console.log(error)})
